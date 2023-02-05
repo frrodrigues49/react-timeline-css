@@ -1,25 +1,37 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    <div id="content">
+      <ul className="timeline">
+        <li className="event" data-date="12:30 - 1:00pm">
+          <div className="member-infos">
+            <h1 className='member-title'>Entrega Realizada</h1>
+            <span>Rio de Janeiro</span>
+          </div>
+        </li>
+
+        <li className="event" data-date="12:30 - 1:00pm">
+          <div className="member-infos">
+            <h1 className='member-title'>Entrega Realizada</h1>
+            <span>Rio de Janeiro</span>
+          </div>
+        </li>
+
+        <li className="event" data-date="12:30 - 1:00pm">
+          <div className="member-infos">
+            <h1 className='member-title'>Entrega Realizada</h1>
+            <span>Rio de Janeiro</span>
+          </div>
+        </li>
+
+      </ul>
     </div>
+
+
+
   );
 }
 
